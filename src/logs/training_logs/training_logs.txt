@@ -1,0 +1,50 @@
+2023-06-13/10:00:54		model training started!!
+2023-06-13/10:00:54		Cassandra Database Building started!!
+2023-06-13/10:01:55		Cassandra Database Building completed!!
+2023-06-13/10:01:55		Dataset loading Started!!
+2023-06-13/10:01:55		Dataset loading completed!!
+2023-06-13/10:01:55		Data Preprocessing Started!!
+2023-06-13/10:04:40		model training started!!
+2023-06-13/10:04:40		Cassandra Database Building started!!
+2023-06-13/10:05:51		Cassandra Database Building completed!!
+2023-06-13/10:05:51		Dataset loading Started!!
+2023-06-13/10:05:52		Dataset loading completed!!
+2023-06-13/10:05:52		Data Preprocessing Started!!
+2023-06-13/10:07:36		model training started!!
+2023-06-13/10:07:36		Cassandra Database Building started!!
+2023-06-13/10:08:49		Cassandra Database Building completed!!
+2023-06-13/10:08:49		Dataset loading Started!!
+2023-06-13/10:08:49		Dataset loading completed!!
+2023-06-13/10:08:49		Data Preprocessing Started!!
+2023-06-13/10:26:11		model training started!!
+2023-06-13/10:26:11		Cassandra Database Building started!!
+2023-06-13/10:26:11		Cassandra Database Building completed!!
+2023-06-13/10:26:11		Dataset loading Started!!
+2023-06-13/10:26:11		Dataset loading completed!!
+2023-06-13/10:26:11		Data Preprocessing Started!!
+2023-06-13/10:33:27		model training started!!
+2023-06-13/10:33:27		Cassandra Database Building started!!
+2023-06-13/10:34:36		Cassandra Database Building completed!!
+2023-06-13/10:34:36		Dataset loading Started!!
+2023-06-13/10:34:36		Dataset loading completed!!
+2023-06-13/10:34:36		Data Preprocessing Started!!
+2023-06-13/10:39:19		model training started!!
+2023-06-13/10:39:19		Cassandra Database Building started!!
+2023-06-13/10:40:36		Cassandra Database Building completed!!
+2023-06-13/10:40:36		Dataset loading Started!!
+2023-06-13/10:40:37		Dataset loading completed!!
+2023-06-13/10:40:37		Data Preprocessing Started!!
+2023-06-13/10:47:56		model training started!!
+2023-06-13/10:47:56		Cassandra Database Building started!!
+2023-06-13/10:50:03		Cassandra Database Building completed!!
+2023-06-13/10:50:03		Dataset loading Started!!
+2023-06-13/10:50:03		Dataset loading completed!!
+2023-06-13/10:50:03		Data Preprocessing Started!!
+2023-06-13/10:50:03		exception occurred while model training : 'AttributeError' object has no attribute 'drop'
+2023-06-13/10:50:03		model training unsuccessful
+2023-06-13/10:56:50		model training started!!
+2023-06-13/10:56:50		Cassandra Database Building started!!
+2023-06-13/11:03:56		Cassandra Database Building completed!!
+2023-06-13/11:03:56		Dataset loading Started!!
+2023-06-13/11:03:56		Dataset loading completed!!
+2023-06-13/11:03:56		Data Preprocessing Started!!

@@ -4,7 +4,7 @@ import pickle
 
 class utils:
     def __init__(self,file_obejct,log):
-        self.path="F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/saved_model"
+        self.path="F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/saved_model"
         self.log=log
         self.file_object=file_obejct
 

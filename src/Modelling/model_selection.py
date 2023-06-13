@@ -1,7 +1,7 @@
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.model_selection import GridSearchCV
-from src.logging import logging
+from src.logger import log
 from sklearn.metrics import accuracy_score
 
 
@@ -10,8 +10,8 @@ class modelling:
     def __init__(self):
         self.random=RandomForestClassifier()
         self.gradient=GradientBoostingClassifier()
-        self.log=logging()
-        self.file_object=open('F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/logs/training_logs/model_logs.txt','a+')
+        self.log=log()
+        self.file_object=open('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/logs/training_logs/model_logs.txt','a+')
 
 
     def model_fine_tuning_random_forest(self,x_train,y_train):

@@ -1,13 +1,13 @@
-from src.logging import logging
+from src.logger import log
 import numpy as np
 from imblearn.over_sampling import SMOTE
 
 
 class preprocessor:
     def __init__(self):
-        self.log=logging()
-        self.file_object=open('F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/logs/training_logs/preprocessing_log.txt','a+')
-        self.prediction_file_object = open('F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/logs/prediction_logs/preprocessing_log.txt', 'a+')
+        self.log=log()
+        self.file_object=open('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/logs/training_logs/preprocessing_log.txt','a+')
+        self.prediction_file_object = open('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/logs/prediction_logs/preprocessing_log.txt', 'a+')
 
 
     def change_column_name(self,data):

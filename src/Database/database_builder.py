@@ -2,21 +2,21 @@ from cassandra.auth import PlainTextAuthProvider
 from cassandra.cluster import Cluster
 import pandas as pd
 import warnings
-from src.logging import logging
+from src.logger import log
 import csv
 warnings.filterwarnings("ignore")
 
 class database:
     def __init__(self):
-        self.log = logging()
-        self.file = open('F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/logs/training_logs/database_logs.txt', 'a+')
+        self.log = log()
+        self.file = open('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/logs/training_logs/database_logs.txt', 'a+')
         self.log.log(file_object=self.file,message="trying to connect the database")
         self.clientID = "kZxKjjtkNmGJHqtJMhmaMrIP"
         self.secret = "eGOE5khqAkvxMR+W_8hQdNx9dFM5pBMt8_bqC-pO6,XoPoTRoME6KxIovCDdq7wqtWW4MCr1EHNmkfpCJagNebrTlubxLo2c..FTScK_ypYPOQyekRD2kcOBiNSb_Hk3"
-        self.cloud_config = {'secure_connect_bundle': "F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/secure-connect-creditriskdata.zip"}
+        self.cloud_config = {'secure_connect_bundle': "F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/secure-connect-creditriskdata.zip"}
         self.keyspace='credit_risk_data'
-        self.table_name='credit_data_table'
-        self.path='F:/Inueron_Internship_Project_Prediction_Credit_Risk/Dataset/SouthGermanCredit.asc'
+        self.table_name='bank_credit_data_table'
+        self.path='F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/Dataset/SouthGermanCredit.asc'
 
     def data_load(self):
         self.log.log(file_object=self.file,message="data loading of the data to be stored in cassandra database started")
@@ -29,7 +29,7 @@ class database:
                           'credit_risk']
             ID = list(df.index)
             df.insert(0,"ID",ID)
-            df.to_csv('F:/Inueron_Internship_Project_Prediction_Credit_Risk/Dataset/data.csv', header=True,index=False)
+            df.to_csv('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/Dataset/data.csv', header=True,index=False)
             self.log.log(file_object=self.file,message="data loading successfully completed")
             return df
         except Exception as e:
@@ -53,7 +53,7 @@ class database:
             return e
 
     def database_connection(self):
-        self.log.log(file_object=self.file, message="databse conncetion operation started")
+        self.log.log(file_object=self.file, message="database connection operation started")
         try:
             auth_provider = PlainTextAuthProvider(self.clientID, self.secret)
             cluster = Cluster(cloud=self.cloud_config, auth_provider=auth_provider)
@@ -73,7 +73,7 @@ class database:
         try:
             session=self.database_connection()
             session.execute("USE {key_space_name};".format(key_space_name=self.keyspace))
-            result=session.execute("SELECT COUNT(*) FROM system_schema.tables WHERE keyspace_name = 'credit_risk_data' AND table_name = 'credit_data_table';")
+            result=session.execute("SELECT COUNT(*) FROM system_schema.tables WHERE keyspace_name = 'credit_risk_data' AND table_name = 'bank_credit_data_table';")
             if result[0][0]==1:
                  session.shutdown()
                  self.log.log(file_object=self.file,message="Cassandra database table already created")
@@ -106,7 +106,7 @@ class database:
                 self.log.log(file_object=self.file, message="Cassandra database table already contains the full data")
                 pass
             else:
-                with open('F:/Inueron_Internship_Project_Prediction_Credit_Risk/Dataset/data.csv','r') as f:
+                with open('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/Dataset/data.csv','r') as f:
                      next(f)
                      column_names= ','.join(columns)
                      reader=csv.reader(f,delimiter="\n")
@@ -131,7 +131,8 @@ class database:
                 data.append(row._asdict())
             df=pd.DataFrame(data,columns=columns)
             df.drop(columns=["ID"],inplace=True)
-            df.to_csv("F:/Inueron_Internship_Project_Prediction_Credit_Risk/Dataset/DATABASE_INPUT_FILE.csv",header=True,index=False)
+            df.to_csv("F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/Dataset/DATABASE_INPUT_FILE.csv",header=True,index=False)
+            session.shutdown()
             self.log.log(file_object=self.file, message="Extraction of data from Cassandra database into lacal successful")
         except Exception as e:
             self.log.log(file_object=self.file, message="Error in Extraction of data from Cassandra database into lacal %s"%e)

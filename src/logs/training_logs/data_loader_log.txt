@@ -1,0 +1,17 @@
+2023-06-13/10:01:55		data loading started
+2023-06-13/10:01:55		data successfully loaded
+2023-06-13/10:05:51		data loading started
+2023-06-13/10:05:52		data successfully loaded
+2023-06-13/10:08:49		data loading started
+2023-06-13/10:08:49		data successfully loaded
+2023-06-13/10:26:11		data loading started
+2023-06-13/10:26:11		data successfully loaded
+2023-06-13/10:34:36		data loading started
+2023-06-13/10:34:36		data successfully loaded
+2023-06-13/10:40:36		data loading started
+2023-06-13/10:40:37		data successfully loaded
+2023-06-13/10:50:03		data loading started
+2023-06-13/10:50:03		exception occurred while data loading: [Errno 2] No such file or directory: 'F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/dataset\\DATABASE_INPUT_FILE.csv'
+2023-06-13/10:50:03		data loading unsuccessful
+2023-06-13/11:03:56		data loading started
+2023-06-13/11:03:56		data successfully loaded

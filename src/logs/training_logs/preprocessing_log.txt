@@ -1,0 +1,81 @@
+2023-06-13/10:01:55		column name changing preprocessing started
+2023-06-13/10:01:55		column names successfully changed
+2023-06-13/10:01:55		outlier removal preprocessing started
+2023-06-13/10:01:55		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-13/10:01:55		skewness removal preprocessing started
+2023-06-13/10:01:55		right skewness and left skewness removal successful
+2023-06-13/10:01:55		dropping unnecessary column preprocessing started
+2023-06-13/10:01:55		Columns which are not relevant dropped successfully
+2023-06-13/10:01:55		oversampling minority class preprocessing started
+2023-06-13/10:01:55		oversampling operation minority class successful
+2023-06-13/10:05:52		column name changing preprocessing started
+2023-06-13/10:05:52		column names successfully changed
+2023-06-13/10:05:52		outlier removal preprocessing started
+2023-06-13/10:05:52		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-13/10:05:52		skewness removal preprocessing started
+2023-06-13/10:05:52		right skewness and left skewness removal successful
+2023-06-13/10:05:52		dropping unnecessary column preprocessing started
+2023-06-13/10:05:52		Columns which are not relevant dropped successfully
+2023-06-13/10:05:52		oversampling minority class preprocessing started
+2023-06-13/10:05:52		oversampling operation minority class successful
+2023-06-13/10:08:49		column name changing preprocessing started
+2023-06-13/10:08:49		column names successfully changed
+2023-06-13/10:08:49		outlier removal preprocessing started
+2023-06-13/10:08:49		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-13/10:08:49		skewness removal preprocessing started
+2023-06-13/10:08:49		right skewness and left skewness removal successful
+2023-06-13/10:08:49		dropping unnecessary column preprocessing started
+2023-06-13/10:08:49		Columns which are not relevant dropped successfully
+2023-06-13/10:08:49		oversampling minority class preprocessing started
+2023-06-13/10:08:49		oversampling operation minority class successful
+2023-06-13/10:26:11		column name changing preprocessing started
+2023-06-13/10:26:11		column names successfully changed
+2023-06-13/10:26:11		outlier removal preprocessing started
+2023-06-13/10:26:11		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-13/10:26:11		skewness removal preprocessing started
+2023-06-13/10:26:11		right skewness and left skewness removal successful
+2023-06-13/10:26:11		dropping unnecessary column preprocessing started
+2023-06-13/10:26:11		Columns which are not relevant dropped successfully
+2023-06-13/10:26:11		oversampling minority class preprocessing started
+2023-06-13/10:26:11		oversampling operation minority class successful
+2023-06-13/10:34:36		column name changing preprocessing started
+2023-06-13/10:34:36		column names successfully changed
+2023-06-13/10:34:36		outlier removal preprocessing started
+2023-06-13/10:34:36		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-13/10:34:36		skewness removal preprocessing started
+2023-06-13/10:34:36		right skewness and left skewness removal successful
+2023-06-13/10:34:36		dropping unnecessary column preprocessing started
+2023-06-13/10:34:36		Columns which are not relevant dropped successfully
+2023-06-13/10:34:36		oversampling minority class preprocessing started
+2023-06-13/10:34:36		oversampling operation minority class successful
+2023-06-13/10:40:37		column name changing preprocessing started
+2023-06-13/10:40:37		column names successfully changed
+2023-06-13/10:40:37		outlier removal preprocessing started
+2023-06-13/10:40:37		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-13/10:40:37		skewness removal preprocessing started
+2023-06-13/10:40:37		right skewness and left skewness removal successful
+2023-06-13/10:40:37		dropping unnecessary column preprocessing started
+2023-06-13/10:40:37		Columns which are not relevant dropped successfully
+2023-06-13/10:40:37		oversampling minority class preprocessing started
+2023-06-13/10:40:37		oversampling operation minority class successful
+2023-06-13/10:50:03		column name changing preprocessing started
+2023-06-13/10:50:03		column names successfully changed
+2023-06-13/10:50:03		outlier removal preprocessing started
+2023-06-13/10:50:03		exception occurred while outlier removal operation : 'FileNotFoundError' object is not subscriptable
+2023-06-13/10:50:03		outlier removal unssucessful
+2023-06-13/10:50:03		skewness removal preprocessing started
+2023-06-13/10:50:03		exception occurred while skewness removal operation : 'TypeError' object has no attribute 'skew'
+2023-06-13/10:50:03		right skewness and left skewness removal unsuccessful
+2023-06-13/10:50:03		dropping unnecessary column preprocessing started
+2023-06-13/10:50:03		exception occurred while dropping columns operation : 'AttributeError' object has no attribute 'drop'
+2023-06-13/10:50:03		dropping unnecessary columns unsuccessful
+2023-06-13/11:03:56		column name changing preprocessing started
+2023-06-13/11:03:56		column names successfully changed
+2023-06-13/11:03:56		outlier removal preprocessing started
+2023-06-13/11:03:56		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-13/11:03:56		skewness removal preprocessing started
+2023-06-13/11:03:56		right skewness and left skewness removal successful
+2023-06-13/11:03:56		dropping unnecessary column preprocessing started
+2023-06-13/11:03:56		Columns which are not relevant dropped successfully
+2023-06-13/11:03:56		oversampling minority class preprocessing started
+2023-06-13/11:03:56		oversampling operation minority class successful

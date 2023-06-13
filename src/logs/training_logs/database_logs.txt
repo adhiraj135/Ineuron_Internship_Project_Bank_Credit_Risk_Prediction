@@ -1,0 +1,145 @@
+2023-06-13/10:04:40		trying to connect the database
+2023-06-13/10:04:40		data loading of the data to be stored in cassandra database started
+2023-06-13/10:04:40		data loading successfully completed
+2023-06-13/10:04:40		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-13/10:04:40		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-13/10:04:40		Cassandra database table creation started
+2023-06-13/10:04:40		databse conncetion operation started
+2023-06-13/10:05:04		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:05:04		database connection operation unsuccessful
+2023-06-13/10:05:04		Error in Cassandra database table creation 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:05:04		Cassandra database table creation is unsuccessful
+2023-06-13/10:05:04		Cassandra database data insertion started
+2023-06-13/10:05:04		databse conncetion operation started
+2023-06-13/10:05:27		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:05:27		database connection operation unsuccessful
+2023-06-13/10:05:27		Error in Cassandra database data insertion 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:05:27		Cassandra database data insertion unsuccessful
+2023-06-13/10:05:27		Extract data from Cassandra database into lacal stared
+2023-06-13/10:05:27		databse conncetion operation started
+2023-06-13/10:05:48		database connection operation successful
+2023-06-13/10:05:51		Extraction of data from Cassandra database into lacal successful
+2023-06-13/10:07:36		trying to connect the database
+2023-06-13/10:07:36		data loading of the data to be stored in cassandra database started
+2023-06-13/10:07:36		data loading successfully completed
+2023-06-13/10:07:36		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-13/10:07:36		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-13/10:07:36		Cassandra database table creation started
+2023-06-13/10:07:36		databse conncetion operation started
+2023-06-13/10:07:55		database connection operation successful
+2023-06-13/10:07:59		Cassandra database table already created
+2023-06-13/10:07:59		Cassandra database data insertion started
+2023-06-13/10:07:59		databse conncetion operation started
+2023-06-13/10:08:25		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:08:25		database connection operation unsuccessful
+2023-06-13/10:08:25		Error in Cassandra database data insertion 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:08:25		Cassandra database data insertion unsuccessful
+2023-06-13/10:08:25		Extract data from Cassandra database into lacal stared
+2023-06-13/10:08:25		databse conncetion operation started
+2023-06-13/10:08:49		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:08:49		database connection operation unsuccessful
+2023-06-13/10:08:49		Error in Extraction of data from Cassandra database into lacal 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:08:49		Extraction of data from Cassandra database into lacal unsuccessful
+2023-06-13/10:26:11		trying to connect the database
+2023-06-13/10:26:11		data loading of the data to be stored in cassandra database started
+2023-06-13/10:26:11		data loading successfully completed
+2023-06-13/10:26:11		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-13/10:26:11		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-13/10:26:11		Cassandra database table creation started
+2023-06-13/10:26:11		databse conncetion operation started
+2023-06-13/10:26:11		database connection operation Unable to connect to the metadata service at https://0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2023-06-13/10:26:11		database connection operation unsuccessful
+2023-06-13/10:26:11		Error in Cassandra database table creation 'DriverException' object has no attribute 'execute'
+2023-06-13/10:26:11		Cassandra database table creation is unsuccessful
+2023-06-13/10:26:11		Cassandra database data insertion started
+2023-06-13/10:26:11		databse conncetion operation started
+2023-06-13/10:26:11		database connection operation Unable to connect to the metadata service at https://0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2023-06-13/10:26:11		database connection operation unsuccessful
+2023-06-13/10:26:11		Error in Cassandra database data insertion 'DriverException' object has no attribute 'execute'
+2023-06-13/10:26:11		Cassandra database data insertion unsuccessful
+2023-06-13/10:26:11		Extract data from Cassandra database into lacal stared
+2023-06-13/10:26:11		databse conncetion operation started
+2023-06-13/10:26:11		database connection operation Unable to connect to the metadata service at https://0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2023-06-13/10:26:11		database connection operation unsuccessful
+2023-06-13/10:26:11		Error in Extraction of data from Cassandra database into lacal 'DriverException' object has no attribute 'execute'
+2023-06-13/10:26:11		Extraction of data from Cassandra database into lacal unsuccessful
+2023-06-13/10:30:02		trying to connect the database
+2023-06-13/10:33:27		trying to connect the database
+2023-06-13/10:33:27		data loading of the data to be stored in cassandra database started
+2023-06-13/10:33:27		data loading successfully completed
+2023-06-13/10:33:27		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-13/10:33:27		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-13/10:33:27		Cassandra database table creation started
+2023-06-13/10:33:27		databse conncetion operation started
+2023-06-13/10:33:46		database connection operation successful
+2023-06-13/10:33:50		Cassandra database table already created
+2023-06-13/10:33:50		Cassandra database data insertion started
+2023-06-13/10:33:50		databse conncetion operation started
+2023-06-13/10:34:14		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:34:14		database connection operation unsuccessful
+2023-06-13/10:34:14		Error in Cassandra database data insertion 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:34:14		Cassandra database data insertion unsuccessful
+2023-06-13/10:34:14		Extract data from Cassandra database into lacal stared
+2023-06-13/10:34:14		databse conncetion operation started
+2023-06-13/10:34:36		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:34:36		database connection operation unsuccessful
+2023-06-13/10:34:36		Error in Extraction of data from Cassandra database into lacal 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:34:36		Extraction of data from Cassandra database into lacal unsuccessful
+2023-06-13/10:38:43		trying to connect the database
+2023-06-13/10:39:19		data loading of the data to be stored in cassandra database started
+2023-06-13/10:39:19		data loading successfully completed
+2023-06-13/10:39:19		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-13/10:39:19		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-13/10:39:22		Cassandra database table creation started
+2023-06-13/10:39:22		databse conncetion operation started
+2023-06-13/10:39:48		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:39:48		database connection operation unsuccessful
+2023-06-13/10:39:48		Error in Cassandra database table creation 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:39:48		Cassandra database table creation is unsuccessful
+2023-06-13/10:39:48		Cassandra database data insertion started
+2023-06-13/10:39:48		databse conncetion operation started
+2023-06-13/10:40:17		database connection operation successful
+2023-06-13/10:40:18		Cassandra database table already contains the full data
+2023-06-13/10:40:18		Extract data from Cassandra database into lacal stared
+2023-06-13/10:40:18		databse conncetion operation started
+2023-06-13/10:40:32		database connection operation successful
+2023-06-13/10:40:36		Extraction of data from Cassandra database into lacal successful
+2023-06-13/10:41:54		trying to connect the database
+2023-06-13/10:47:56		trying to connect the database
+2023-06-13/10:47:56		data loading of the data to be stored in cassandra database started
+2023-06-13/10:47:56		data loading successfully completed
+2023-06-13/10:47:56		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-13/10:47:56		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-13/10:47:56		Cassandra database table creation started
+2023-06-13/10:47:56		databse conncetion operation started
+2023-06-13/10:48:19		database connection operation successful
+2023-06-13/10:49:07		Cassandra database table successfully created
+2023-06-13/10:49:07		Cassandra database data insertion started
+2023-06-13/10:49:07		databse conncetion operation started
+2023-06-13/10:49:29		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:49:29		database connection operation unsuccessful
+2023-06-13/10:49:29		Error in Cassandra database data insertion 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:49:29		Cassandra database data insertion unsuccessful
+2023-06-13/10:49:29		Extract data from Cassandra database into lacal stared
+2023-06-13/10:49:29		databse conncetion operation started
+2023-06-13/10:50:03		database connection operation ('Unable to connect to any servers', {'0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:7daef3a3-819c-428a-8344-e0cc6064e144': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:d8fb6aa0-0741-4ecd-919f-bfa81b4b9fb4': OperationTimedOut('errors=None, last_host=None'), '0dd49434-41a5-4366-a916-012faab8f6b4-us-east1.db.astra.datastax.com:29042:f42393f9-3b98-4f75-bd5a-335b9ef4d720': OperationTimedOut('errors=None, last_host=None')})
+2023-06-13/10:50:03		database connection operation unsuccessful
+2023-06-13/10:50:03		Error in Extraction of data from Cassandra database into lacal 'NoHostAvailable' object has no attribute 'execute'
+2023-06-13/10:50:03		Extraction of data from Cassandra database into lacal unsuccessful
+2023-06-13/10:56:50		trying to connect the database
+2023-06-13/10:56:50		data loading of the data to be stored in cassandra database started
+2023-06-13/10:56:50		data loading successfully completed
+2023-06-13/10:56:50		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-13/10:56:50		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-13/10:56:50		Cassandra database table creation started
+2023-06-13/10:56:50		database connection operation started
+2023-06-13/10:57:08		database connection operation successful
+2023-06-13/10:57:11		Cassandra database table already created
+2023-06-13/10:57:11		Cassandra database data insertion started
+2023-06-13/10:57:11		database connection operation started
+2023-06-13/10:57:28		database connection operation successful
+2023-06-13/11:03:27		Cassandra database data insertion successful
+2023-06-13/11:03:27		Extract data from Cassandra database into lacal stared
+2023-06-13/11:03:27		database connection operation started
+2023-06-13/11:03:51		database connection operation successful
+2023-06-13/11:03:56		Extraction of data from Cassandra database into lacal successful

@@ -3,16 +3,16 @@ import os
 from src.Data_Loader.loader import loader
 from src.Feature_Engineering.preprocessing import preprocessor
 from src.utils import utils
-from src.logging import logging
+from src.logger import log
 
 
 class prediction:
     def __init__(self):
-        self.log=logging()
+        self.log=log()
         self.data_loader=loader()
         self.preprocessing=preprocessor()
-        self.prediction_file_object=open('F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/logs/prediction_logs/predicton_logs.txt','a+')
-        self.model_path='F:/Inueron_Internship_Project_Prediction_Credit_Risk/src/saved_model'
+        self.prediction_file_object=open('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/logs/prediction_logs/predicton_logs.txt','a+')
+        self.model_path='F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/saved_model'
         self.utils=utils(file_obejct=self.prediction_file_object,log=self.log)
 
     def prediction(self):
