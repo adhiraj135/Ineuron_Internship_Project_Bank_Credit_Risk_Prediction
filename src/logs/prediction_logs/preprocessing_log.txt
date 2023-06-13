@@ -1,0 +1,5 @@
+2023-06-13/12:22:07		dropping unnecessary column preprocessing started
+2023-06-13/12:22:07		exception occurred while dropping columns operation : 'FileNotFoundError' object has no attribute 'drop'
+2023-06-13/12:22:07		dropping unnecessary columns unsuccessful
+2023-06-13/12:33:19		dropping unnecessary column preprocessing started
+2023-06-13/12:33:19		Columns which are not relevant dropped successfully

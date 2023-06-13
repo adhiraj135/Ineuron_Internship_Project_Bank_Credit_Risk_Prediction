@@ -4,7 +4,7 @@ from src.logger import log
 
 class loader:
     def __init__(self):
-        self.path='F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/dataset\DATABASE_INPUT_FILE.csv'
+        self.path='F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/dataset/DATABASE_INPUT_FILE.csv'
         self.prediction_path='F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/Dataset/prediction_file.csv'
         self.file=open('F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/logs/training_logs/data_loader_log.txt',"a+")
         self.log=log()

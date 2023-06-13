@@ -1,0 +1,3 @@
+2023-06-13/12:22:07		prediction data which was created using the input by users on webpage operation started
+2023-06-13/12:33:19		prediction data which was created using the input by users on webpage operation started
+2023-06-13/12:33:19		prediction data successfully loaded

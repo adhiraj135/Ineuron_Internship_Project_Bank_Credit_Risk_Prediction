@@ -25,10 +25,10 @@ def predict():
                 values.append(i)
             df=load.load()
             pred_df=pd.DataFrame(values,index=df.drop(columns=['credit_risk']).columns).T
-            pred_df.to_csv("F:/Inueron_Internship_Project_Prediction_Credit_Risk/Dataset/prediction_file.csv",header=True,index=False)
+            pred_df.to_csv("F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/Dataset/prediction_file.csv",header=True,index=False)
             pred=prediction()
             result=pred.prediction()
-            print(result)
+            #print(result)
             if result=='Bad':
                 return render_template('result.html', result_text="Credit Risk is {prediction}, Loan Applicant is likely to Default".format(prediction=result))
             else:
