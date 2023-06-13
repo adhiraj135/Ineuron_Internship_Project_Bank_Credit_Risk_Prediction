@@ -65,11 +65,13 @@ The Prediction of Credit Risk Final Model Run in Local Enviornment
 
 1. Main Page :
 
-![](C:\Users\DELL\Pictures\credit1.PNG)
+<img src="C:\Users\DELL\Pictures\credit1.PNG"/>
 
 2. result page :
 
-![](C:\Users\DELL\Pictures\credit.PNG)
+<img src="C:\Users\DELL\Pictures\credit.PNG"/>
+
+
 
 ## **Deployment Link**
 
