@@ -65,7 +65,7 @@ The Prediction of Credit Risk Final Model Run in Local Enviornment
 
 1. Main Page :
 
-<img height="150" src="C:\Users\DELL\Pictures\credit1.PNG" width="150"/>
+<img height="150" src="C:\Users\DELL\Pictures\credit_risk1.png.JPG" width="150"/>
 
 2. result page :
 
@@ -75,7 +75,7 @@ The Prediction of Credit Risk Final Model Run in Local Enviornment
 
 ## **Deployment Link**
 
-## **Installtion**
+## **Installation**
 
 The Code is written in Python 3.8.11. If you don't have Python installed you can find it your link here. If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository.
 
