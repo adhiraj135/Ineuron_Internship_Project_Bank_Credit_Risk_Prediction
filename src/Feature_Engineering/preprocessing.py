@@ -6,8 +6,8 @@ from imblearn.over_sampling import SMOTE
 class preprocessor:
     def __init__(self):
         self.log=log()
-        self.file_object=open('/src/logs/training_logs/preprocessing_log.txt','a+')
-        self.prediction_file_object = open('/src/logs/prediction_logs/preprocessing_log.txt', 'a+')
+        self.file_object=open('src/logs/training_logs/preprocessing_log.txt','a+')
+        self.prediction_file_object = open('src/logs/prediction_logs/preprocessing_log.txt', 'a+')
 
 
     def change_column_name(self,data):

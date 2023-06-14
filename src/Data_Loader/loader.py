@@ -6,7 +6,7 @@ class loader:
     def __init__(self):
         self.path='Dataset/DATABASE_INPUT_FILE.csv'
         self.prediction_path='Dataset/prediction_file.csv'
-        self.file=open('src/logs/training_logs',"a+")
+        self.file=open('src/logs/training_logs/data_loader_log.txt',"a+")
         self.log=log()
         self.prediction_file_object=open('src/logs/prediction_logs/prediction_data_loader_log.txt','a+')
 
