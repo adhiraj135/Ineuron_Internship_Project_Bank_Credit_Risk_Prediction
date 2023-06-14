@@ -14,7 +14,7 @@ import pandas as pd
 class model_training:
     def __init__(self):
         self.log=log()
-        self.file_object=open("F:/Ineuron_Internship_Project_Bank_Credit_Risk_Prediction/src/logs/training_logs/training_logs.txt","a+")
+        self.file_object=open("src/logs/training_logs/training_logs.txt","a+")
         self.loader=loader()
         self.preprocessor=preprocessor()
         self.database=database()
