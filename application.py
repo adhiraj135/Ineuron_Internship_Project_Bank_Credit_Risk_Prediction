@@ -5,15 +5,15 @@ import pandas as pd
 from src.model_prediction import prediction
 
 
-app=Flask(__name__)
-CORS(app)
+application=Flask(__name__)
+CORS(application)
 
-@app.route('/',methods=['GET'])
+@application.route('/',methods=['GET'])
 @cross_origin()
 def home():
     return render_template('index.html')
 
-@app.route('/predict',methods=['GET','POST'])
+@application.route('/predict',methods=['GET','POST'])
 @cross_origin()
 def predict():
     try:
@@ -38,4 +38,4 @@ def predict():
 
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0',port=8080)
+    application.run(host='0.0.0.0',port=8080)
