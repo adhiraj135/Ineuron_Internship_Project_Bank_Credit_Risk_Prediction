@@ -21,9 +21,9 @@ def predict():
             values=[]
             for i in inputs.values():
                 values.append(i)
-            df=pd.read_csv("Dataset/DATABASE_INPUT_FILE.csv")
+            df=pd.read_csv("/Dataset/DATABASE_INPUT_FILE.csv")
             pred_df=pd.DataFrame(values,index=df.drop(columns=['credit_risk']).columns).T
-            pred_df.to_csv("Dataset/prediction_file.csv",header=True,index=False)
+            pred_df.to_csv("/Dataset/prediction_file.csv",header=True,index=False)
             pred=prediction()
             result=pred.prediction()
             #print(result)
