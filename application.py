@@ -34,7 +34,7 @@ def predict():
             else:
                 return render_template('result.html',result_text="Credit Risk is {prediction}, Loan Applicant is likely to repay the credit obligations".format(prediction=result))
     except Exception as e:
-        return e
+        raise e
 
 
 if __name__=="__main__":

@@ -21,7 +21,7 @@ class preprocessor:
         except Exception as e:
             self.log.log(self.file_object, "exception occurred while changing column names operation : %s" % e)
             self.log.log(self.file_object, "column names successfully changed")
-            return e
+            raise e
 
     def outlier_removal(self,data):
         self.log.log(self.file_object, "outlier removal preprocessing started")
@@ -40,7 +40,7 @@ class preprocessor:
         except Exception as e:
             self.log.log(self.file_object, "exception occurred while outlier removal operation : %s" % e)
             self.log.log(self.file_object,"outlier removal unssucessful")
-            return e
+            raise e
 
     def skewness_removal(self,data):
         self.log.log(self.file_object, "skewness removal preprocessing started")
@@ -57,7 +57,7 @@ class preprocessor:
         except Exception as e:
             self.log.log(self.file_object, "exception occurred while skewness removal operation : %s" % e)
             self.log.log(self.file_object, "right skewness and left skewness removal unsuccessful")
-            return e
+            raise e
 
     def drop_unnecessary_columns(self,data):
         self.log.log(self.file_object, "dropping unnecessary column preprocessing started")
@@ -71,7 +71,7 @@ class preprocessor:
         except Exception as e:
             self.log.log(self.file_object, "exception occurred while dropping columns operation : %s" % e)
             self.log.log(self.file_object,"dropping unnecessary columns unsuccessful")
-            return e
+            raise e
 
     def over_sampling_operation(self,features,label):
         self.log.log(self.file_object, "oversampling minority class preprocessing started")
@@ -83,7 +83,7 @@ class preprocessor:
         except Exception as e:
             self.log.log(self.file_object, "exception occurred while oversampling operation : %s" %e)
             self.log.log(self.file_object,"oversampling operation unsuccessful")
-            return e
+            raise e
 
     def drop_unnecessary_columns_prediction(self,data):
         self.log.log(self.prediction_file_object, "dropping unnecessary column preprocessing started")
@@ -97,4 +97,4 @@ class preprocessor:
         except Exception as e:
             self.log.log(self.prediction_file_object, "exception occurred while dropping columns operation : %s" % e)
             self.log.log(self.prediction_file_object,"dropping unnecessary columns unsuccessful")
-            return e
+            raise e

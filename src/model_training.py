@@ -56,7 +56,7 @@ class model_training:
         except Exception as e:
             self.log.log(self.file_object,"exception occurred while model training : %s"%e)
             self.log.log(self.file_object,"model training unsuccessful")
-            return e
+            raise e
 
 
 

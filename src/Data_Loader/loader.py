@@ -20,7 +20,7 @@ class loader:
         except Exception as e:
             self.log.log(self.file,"exception occurred while data loading: %s" %e)
             self.log.log(self.file,"data loading unsuccessful")
-            return e
+            raise e
 
     def prediction_data_loader(self):
         self.log.log(self.prediction_file_object,"prediction data which was created using the input by users on webpage operation started")
@@ -31,7 +31,7 @@ class loader:
         except Exception as e:
             self.log.log(self.file, "error in prediction data laoding : %s"%e)
             self.log.log(self.file, "prediction data loading is unsuccessful")
-            return e
+            raise e
 
 
 

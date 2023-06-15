@@ -35,7 +35,7 @@ class database:
         except Exception as e:
             self.log.log(file_object=self.file,message="error in data loading of the data to be stored in cassandra database %s"%e)
             self.log.log(file_object=self.file,message="data loading unsuccessful")
-            return e
+            raise e
 
     def extract_columns_and_datatype(self,data):
         self.log.log(file_object=self.file,message="extraction columns and datatype from the data to be stored in cassandra started")
@@ -50,7 +50,7 @@ class database:
         except Exception as e:
             self.log.log(file_object=self.file,message="error in extraction columns and datatype %s"%e)
             self.log.log(file_object=self.file,message="extraction columns and datatype from the data to be stored in cassandra is unsuccessful")
-            return e
+            raise e
 
     def database_connection(self):
         self.log.log(file_object=self.file, message="database connection operation started")
@@ -63,7 +63,7 @@ class database:
         except Exception as e:
             self.log.log(file_object=self.file, message="database connection operation %s"%e)
             self.log.log(file_object=self.file, message="database connection operation unsuccessful")
-            return e
+            raise e
 
 
 
@@ -93,7 +93,7 @@ class database:
         except Exception as e:
             self.log.log(file_object=self.file, message="Error in Cassandra database table creation %s"%e)
             self.log.log(file_object=self.file, message="Cassandra database table creation is unsuccessful")
-            return e
+            raise e
 
     def database_inserion(self,data,columns):
         self.log.log(file_object=self.file, message="Cassandra database data insertion started")
@@ -119,7 +119,7 @@ class database:
         except Exception as e:
             self.log.log(file_object=self.file, message="Error in Cassandra database data insertion %s"%e)
             self.log.log(file_object=self.file, message="Cassandra database data insertion unsuccessful")
-            return e
+            raise e
 
     def extract_data_form_database_into_lacal(self,columns):
         self.log.log(file_object=self.file, message="Extract data from Cassandra database into lacal stared")
@@ -137,4 +137,4 @@ class database:
         except Exception as e:
             self.log.log(file_object=self.file, message="Error in Extraction of data from Cassandra database into lacal %s"%e)
             self.log.log(file_object=self.file, message="Extraction of data from Cassandra database into lacal unsuccessful")
-            return e
+            raise e

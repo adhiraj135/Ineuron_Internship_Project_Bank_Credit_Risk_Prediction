@@ -35,4 +35,4 @@ class utils:
         except Exception as e:
             self.log.log(self.file_object, "error in model loading operation : %s"%e)
             self.log.log(self.file_object, "model loading operation unsuccessful")
-            return e
+            raise e

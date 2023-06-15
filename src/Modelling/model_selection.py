@@ -41,7 +41,7 @@ class modelling:
         except Exception as e:
             self.log.log(self.file_object, "error in model fine tuning for random forest %s"%e)
             self.log.log(self.file_object, "model fine tuning for random forest is unsuccessful")
-            return e
+            raise e
 
 
     def best_model_selection(self,x_train,y_train,x_test,y_test):
@@ -70,4 +70,4 @@ class modelling:
          except Exception as e:
              self.log.log(self.file_object, "error in best model selection : %s"%e)
              self.log.log(self.file_object, "best model selection unsuccessful")
-             return e
+             raise e

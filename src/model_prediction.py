@@ -39,4 +39,4 @@ class prediction:
         except Exception as e:
             self.log.log(self.prediction_file_object,"error while prediction through model %s"%e)
             self.log.log(self.prediction_file_object,"model prediction unsuccessful")
-            return e
+            raise e
