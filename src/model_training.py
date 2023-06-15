@@ -60,5 +60,3 @@ class model_training:
 
 
 
-train=model_training()
-train.training()
