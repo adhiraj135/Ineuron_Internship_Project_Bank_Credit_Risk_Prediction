@@ -48,3 +48,21 @@
 2023-06-13/11:03:56		Dataset loading Started!!
 2023-06-13/11:03:56		Dataset loading completed!!
 2023-06-13/11:03:56		Data Preprocessing Started!!
+2023-06-15/05:25:15		model training started!!
+2023-06-15/05:25:15		Cassandra Database Building started!!
+2023-06-15/05:25:15		exception occurred while model training : [Errno 2] No such file or directory: '../../Dataset/SouthGermanCredit.asc'
+2023-06-15/05:25:15		model training unsuccessful
+2023-06-15/05:25:49		model training started!!
+2023-06-15/05:25:49		Cassandra Database Building started!!
+2023-06-15/05:25:49		exception occurred while model training : Cannot save file into a non-existent directory: '..\..\Dataset'
+2023-06-15/05:25:49		model training unsuccessful
+2023-06-15/05:26:22		model training started!!
+2023-06-15/05:26:22		Cassandra Database Building started!!
+2023-06-15/05:26:22		exception occurred while model training : [Errno 2] No such file or directory: 'secure-connect-creditriskdata.zip'
+2023-06-15/05:26:22		model training unsuccessful
+2023-06-15/05:27:05		model training started!!
+2023-06-15/05:27:05		Cassandra Database Building started!!
+2023-06-15/05:27:44		Cassandra Database Building completed!!
+2023-06-15/05:27:44		Dataset loading Started!!
+2023-06-15/05:27:44		Dataset loading completed!!
+2023-06-15/05:27:44		Data Preprocessing Started!!

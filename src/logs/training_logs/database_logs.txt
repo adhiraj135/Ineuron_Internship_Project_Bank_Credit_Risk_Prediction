@@ -143,3 +143,40 @@
 2023-06-13/11:03:27		database connection operation started
 2023-06-13/11:03:51		database connection operation successful
 2023-06-13/11:03:56		Extraction of data from Cassandra database into lacal successful
+2023-06-15/05:24:54		trying to connect the database
+2023-06-15/05:25:15		trying to connect the database
+2023-06-15/05:25:15		data loading of the data to be stored in cassandra database started
+2023-06-15/05:25:15		error in data loading of the data to be stored in cassandra database [Errno 2] No such file or directory: '../../Dataset/SouthGermanCredit.asc'
+2023-06-15/05:25:15		data loading unsuccessful
+2023-06-15/05:25:49		trying to connect the database
+2023-06-15/05:25:49		data loading of the data to be stored in cassandra database started
+2023-06-15/05:25:49		error in data loading of the data to be stored in cassandra database Cannot save file into a non-existent directory: '..\..\Dataset'
+2023-06-15/05:25:49		data loading unsuccessful
+2023-06-15/05:26:22		trying to connect the database
+2023-06-15/05:26:22		data loading of the data to be stored in cassandra database started
+2023-06-15/05:26:22		data loading successfully completed
+2023-06-15/05:26:22		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-15/05:26:22		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-15/05:26:22		Cassandra database table creation started
+2023-06-15/05:26:22		database connection operation started
+2023-06-15/05:26:22		database connection operation [Errno 2] No such file or directory: 'secure-connect-creditriskdata.zip'
+2023-06-15/05:26:22		database connection operation unsuccessful
+2023-06-15/05:26:22		Error in Cassandra database table creation [Errno 2] No such file or directory: 'secure-connect-creditriskdata.zip'
+2023-06-15/05:26:22		Cassandra database table creation is unsuccessful
+2023-06-15/05:27:05		trying to connect the database
+2023-06-15/05:27:05		data loading of the data to be stored in cassandra database started
+2023-06-15/05:27:05		data loading successfully completed
+2023-06-15/05:27:05		extraction columns and datatype from the data to be stored in cassandra started
+2023-06-15/05:27:05		extraction columns and datatype from the data to be stored in cassandra is successful
+2023-06-15/05:27:05		Cassandra database table creation started
+2023-06-15/05:27:05		database connection operation started
+2023-06-15/05:27:16		database connection operation successful
+2023-06-15/05:27:18		Cassandra database table already created
+2023-06-15/05:27:18		Cassandra database data insertion started
+2023-06-15/05:27:18		database connection operation started
+2023-06-15/05:27:28		database connection operation successful
+2023-06-15/05:27:30		Cassandra database table already contains the full data
+2023-06-15/05:27:30		Extract data from Cassandra database into lacal stared
+2023-06-15/05:27:30		database connection operation started
+2023-06-15/05:27:43		database connection operation successful
+2023-06-15/05:27:44		Extraction of data from Cassandra database into lacal successful

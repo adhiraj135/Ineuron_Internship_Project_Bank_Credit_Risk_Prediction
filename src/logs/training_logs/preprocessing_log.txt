@@ -79,3 +79,13 @@
 2023-06-13/11:03:56		Columns which are not relevant dropped successfully
 2023-06-13/11:03:56		oversampling minority class preprocessing started
 2023-06-13/11:03:56		oversampling operation minority class successful
+2023-06-15/05:27:44		column name changing preprocessing started
+2023-06-15/05:27:44		column names successfully changed
+2023-06-15/05:27:44		outlier removal preprocessing started
+2023-06-15/05:27:44		upper level outliers has been replaced with upper_limit derived through IQR and similarly lower level outliers replaced with lower_limit
+2023-06-15/05:27:44		skewness removal preprocessing started
+2023-06-15/05:27:44		right skewness and left skewness removal successful
+2023-06-15/05:27:44		dropping unnecessary column preprocessing started
+2023-06-15/05:27:44		Columns which are not relevant dropped successfully
+2023-06-15/05:27:44		oversampling minority class preprocessing started
+2023-06-15/05:27:44		oversampling operation minority class successful

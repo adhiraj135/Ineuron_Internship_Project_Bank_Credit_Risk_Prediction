@@ -11,7 +11,7 @@ class modelling:
         self.random=RandomForestClassifier()
         self.gradient=GradientBoostingClassifier()
         self.log=log()
-        self.file_object=open('src/logs/training_logs/model_logs.txt','a+')
+        self.file_object=open('../src/logs/training_logs/model_logs.txt','a+')
 
 
     def model_fine_tuning_random_forest(self,x_train,y_train):
