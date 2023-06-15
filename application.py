@@ -1,6 +1,5 @@
 from flask import Flask,render_template,request
 from flask_cors import CORS,cross_origin
-from src.Data_Loader.loader import loader
 import pandas as pd
 from src.model_prediction import prediction
 
@@ -20,10 +19,9 @@ def predict():
         if request.method=='POST':
             inputs=request.form
             values=[]
-            load=loader()
             for i in inputs.values():
                 values.append(i)
-            df=load.load()
+            df=pd.read_csv("Dataset/DATABASE_INPUT_FILE.csv")
             pred_df=pd.DataFrame(values,index=df.drop(columns=['credit_risk']).columns).T
             pred_df.to_csv("Dataset/prediction_file.csv",header=True,index=False)
             pred=prediction()

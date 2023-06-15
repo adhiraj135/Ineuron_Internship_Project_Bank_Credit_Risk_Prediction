@@ -9,11 +9,11 @@ from src.logger import log
 class prediction:
     def __init__(self):
         self.log=log()
-        self.data_loader=loader()
         self.preprocessing=preprocessor()
-        self.prediction_file_object=open('../src/logs/prediction_logs/predicton_logs.txt','a+')
-        self.model_path='../src/saved_model'
+        self.prediction_file_object=open('src/logs/prediction_logs/predicton_logs.txt','a+')
+        self.model_path='src/saved_model'
         self.utils=utils(file_obejct=self.prediction_file_object,log=self.log)
+        self.data_loader=loader()
 
     def prediction(self):
         self.log.log(self.prediction_file_object,"prediction on input data file created using inputs by the user on webpage started")
