@@ -9,14 +9,14 @@ warnings.filterwarnings("ignore")
 class database:
     def __init__(self):
         self.log = log()
-        self.file = open('src/logs/training_logs/database_logs.txt', 'a+')
+        self.file = open('/src/logs/training_logs/database_logs.txt', 'a+')
         self.log.log(file_object=self.file,message="trying to connect the database")
         self.clientID = "kZxKjjtkNmGJHqtJMhmaMrIP"
         self.secret = "eGOE5khqAkvxMR+W_8hQdNx9dFM5pBMt8_bqC-pO6,XoPoTRoME6KxIovCDdq7wqtWW4MCr1EHNmkfpCJagNebrTlubxLo2c..FTScK_ypYPOQyekRD2kcOBiNSb_Hk3"
         self.cloud_config = {'secure_connect_bundle': "secure-connect-creditriskdata.zip"}
         self.keyspace='credit_risk_data'
         self.table_name='bank_credit_data_table'
-        self.path='Dataset/SouthGermanCredit.asc'
+        self.path='/Dataset/SouthGermanCredit.asc'
 
     def data_load(self):
         self.log.log(file_object=self.file,message="data loading of the data to be stored in cassandra database started")
@@ -29,7 +29,7 @@ class database:
                           'credit_risk']
             ID = list(df.index)
             df.insert(0,"ID",ID)
-            df.to_csv('Dataset/data.csv', header=True,index=False)
+            df.to_csv('/Dataset/data.csv', header=True,index=False)
             self.log.log(file_object=self.file,message="data loading successfully completed")
             return df
         except Exception as e:
@@ -106,7 +106,7 @@ class database:
                 self.log.log(file_object=self.file, message="Cassandra database table already contains the full data")
                 pass
             else:
-                with open('Dataset/data.csv','r') as f:
+                with open('/Dataset/data.csv','r') as f:
                      next(f)
                      column_names= ','.join(columns)
                      reader=csv.reader(f,delimiter="\n")
@@ -131,7 +131,7 @@ class database:
                 data.append(row._asdict())
             df=pd.DataFrame(data,columns=columns)
             df.drop(columns=["ID"],inplace=True)
-            df.to_csv("Dataset/DATABASE_INPUT_FILE.csv",header=True,index=False)
+            df.to_csv("/Dataset/DATABASE_INPUT_FILE.csv",header=True,index=False)
             session.shutdown()
             self.log.log(file_object=self.file, message="Extraction of data from Cassandra database into lacal successful")
         except Exception as e:

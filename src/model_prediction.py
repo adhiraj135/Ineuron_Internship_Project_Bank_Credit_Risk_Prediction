@@ -10,8 +10,8 @@ class prediction:
     def __init__(self):
         self.log=log()
         self.preprocessing=preprocessor()
-        self.prediction_file_object=open('src/logs/prediction_logs/predicton_logs.txt','a+')
-        self.model_path='src/saved_model'
+        self.prediction_file_object=open('/src/logs/prediction_logs/predicton_logs.txt','a+')
+        self.model_path='/src/saved_model'
         self.utils=utils(file_obejct=self.prediction_file_object,log=self.log)
         self.data_loader=loader()
 
