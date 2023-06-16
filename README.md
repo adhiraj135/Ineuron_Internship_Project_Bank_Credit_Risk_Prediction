@@ -16,26 +16,26 @@ Normally, most of the bank's wealth is obtained from providing credit loans so t
 
 **Input variables are:**
 
-laufkont = status
-laufzeit = duration
-moral = credit_history
-verw = purpose
-hoehe = amount
-sparkont = savings
-beszeit = employment_duration
-rate = installment_rate
-famges = personal_status_sex
-buerge = other_debtors
-wohnzeit = present_residence
-verm = property
-alter = age
-weitkred = other_installment_plans
-wohn = housing
-bishkred = number_credits
-beruf = job
-pers = people_liable
-telef = telephone
-gastarb = foreign_worker
+1. laufkont = status
+2. laufzeit = duration
+3. moral = credit_history
+4. verw = purpose
+5. hoehe = amount
+6. sparkont = savings
+7. beszeit = employment_duration
+8. rate = installment_rate
+9. famges = personal_status_sex
+10. buerge = other_debtors
+11. wohnzeit = present_residence 
+12. verm = property
+13. alter = age
+14. weitkred = other_installment_plans
+15. wohn = housing
+16. bishkred = number_credits
+17. beruf = job
+18. pers = people_liable
+19. telef = telephone
+20. gastarb = foreign_worker
 
 **Output variables:**
 
