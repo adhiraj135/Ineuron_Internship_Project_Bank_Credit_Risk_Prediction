@@ -85,3 +85,21 @@
 2023-06-15/08:00:00		model loading operation started
 2023-06-15/08:00:00		model loading operation successful
 2023-06-15/08:00:01		model : Random Forest loaded successfully
+2023-06-16/10:51:08		prediction on input data file created using inputs by the user on webpage started
+2023-06-16/10:51:08		prediction data loading started!!
+2023-06-16/10:51:08		prediction data loaded successfully!!
+2023-06-16/10:51:08		prediction data preprocessig started!!
+2023-06-16/10:51:08		prediction data preprocessing completed successfully!!
+2023-06-16/10:51:08		model Loading started!!
+2023-06-16/10:51:08		model loading operation started
+2023-06-16/10:51:08		model loading operation successful
+2023-06-16/10:51:08		model : Random Forest loaded successfully
+2023-06-27/23:44:35		prediction on input data file created using inputs by the user on webpage started
+2023-06-27/23:44:35		prediction data loading started!!
+2023-06-27/23:44:35		prediction data loaded successfully!!
+2023-06-27/23:44:35		prediction data preprocessig started!!
+2023-06-27/23:44:35		prediction data preprocessing completed successfully!!
+2023-06-27/23:44:35		model Loading started!!
+2023-06-27/23:44:35		model loading operation started
+2023-06-27/23:44:35		model loading operation successful
+2023-06-27/23:44:35		model : Random Forest loaded successfully

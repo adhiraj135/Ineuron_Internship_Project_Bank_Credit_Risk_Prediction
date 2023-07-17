@@ -19,3 +19,7 @@
 2023-06-15/07:44:42		Columns which are not relevant dropped successfully
 2023-06-15/08:00:00		dropping unnecessary column preprocessing started
 2023-06-15/08:00:00		Columns which are not relevant dropped successfully
+2023-06-16/10:51:08		dropping unnecessary column preprocessing started
+2023-06-16/10:51:08		Columns which are not relevant dropped successfully
+2023-06-27/23:44:35		dropping unnecessary column preprocessing started
+2023-06-27/23:44:35		Columns which are not relevant dropped successfully

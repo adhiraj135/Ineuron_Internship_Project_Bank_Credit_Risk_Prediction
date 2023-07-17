@@ -75,7 +75,7 @@ The Prediction of Credit Risk Final Model Run in Local Enviornment
 
 ## **Deployment Link**
 
-AWS - [http://creditriskpredictionapp-env.eba-7zpp7qij.us-east-2.elasticbeanstalk.com/]()
+AWS - http://creditriskpredictionapp-env.eba-7zpp7qij.us-east-2.elasticbeanstalk.com/
 
 **Installtion**
 
